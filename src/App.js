@@ -38,7 +38,7 @@ export default function App() {
 function TodoList() {
   return (
     <div className="container">
-      <h2>My Todo</h2>
+      <h2>My Todo List</h2>
       <SearchBar />
       <TodoItem items={todos} />
     </div>
